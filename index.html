@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>BookStore Paris Nord</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="js/google-map.js"></script>
+</head>
+<body>
+	<!-- Header -->
+	<div id="header" class="shell">
+		<div id="search">
+			<input id="book-search" type="text" placeholder="  Search for books" class="search-input" />
+			<button class="search-btn" type="submit"></button>
+		</div>
+		<div id="logo">
+			<h1>
+				<a href="#">BookStore</a>
+			</h1>
+			<span>
+				<a href="#">Paris Nord</a>
+			</span>
+		</div>
+		<div id="navigation">
+			<ul>
+				<li>
+					<a href="#" class="active">Home</a>
+				</li>
+				<li>
+					<a href="#">Products</a>
+				</li>
+				<li>
+					<a href="#">Promotions</a>
+				</li>
+				<li>
+					<a href="#">Contacts</a>
+				</li>
+			</ul>
+		</div>
+		<div class="cl">&nbsp;</div>
+		<div id="login-details">
+			<p>
+				Welcome, 
+				<a href="#" id="user">Guest</a>
+				. 
+			</p>
+			<p>
+				<a href="#" class="cart">
+					<img src="css/images/cart-icon.png">
+				</a>
+				Shopping Cart (0)
+				<a href="#" class="sum">$0.00</a>
+			</p>
+		</div>
+	</div>
+	<!-- End Header -->
+	<!-- Slider -->
+	<div id="slider">
+		<div class="slider-wrapper">
+			<div class="banner"> 
+			<!--	<a href="#"><span class="prev"></span></a>
+				<a href="#"><span class="next"></span></a> -->
+			</div>
+			<div class="sidebar">
+				<div id="img-wrap">
+					<div id="img">
+						<img src="css/images/slide1.png" width="857" height="328" />
+				        <img src="css/images/Screenshot (15).png" width="857" height="328" />
+				        <img src="css/images/slide2.jpg" width="857" height="328" />
+			    	</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- End Slider -->
+	<!-- Main -->
+	<div id="main" class="shell">
+		<div id="menu">
+			<ul class="categories">
+				<li>
+					<h4>Categories</h4>
+					<ul>
+						<li><a href="#">Art & Photography</a></li>
+						<li><a href="#">Biography</a></li>
+						<li><a href="#">Business, Finance & Law</a></li>
+						<li><a href="#">Children's Books</a></li>
+						<li><a href="#">Computing</a></li>
+						<li><a href="#">Dictionaries & Languages</a></li>
+						<li><a href="#">Entertainment</a></li>
+						<li><a href="#">Fiction</a></li>
+						<li><a href="#">Food & Drink</a></li>
+						<li><a href="#">Health</a></li>
+						<li><a href="#">Medical</a></li>
+						<li><a href="#">Poetry & Drama</a></li>
+						<li><a href="#">Religion</a></li>
+						<li><a href="#">Romance</a></li>
+						<li><a href="#">Science & Geography</a></li>
+						<li><a href="#">Sport</a></li>
+						<li><a href="#">Teching Resources & Education</a></li>
+						<li><a href="#">Technology & Engineering</a></li>
+						<li><a href="#">Travel & Holiday Guides</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div id="content">
+			<!-- Products -->
+			<div class="products">
+				<h3>Featured Products</h3>
+					<div class="product-wrapper">
+						<div class="product-box">
+							<img src="css/images/TheYearoftheRunaways.jpg" />
+							<div class="product-detail">
+								<h4>The Year of the Runaways</h4>
+								<p>By (author) Sunjeev Sahota</p>
+							</div>
+							<a href="#" class="buy-btn">BUY NOW <span class="price"><span class="low">$</span>22<span class="high">00</span></span></a>
+						</div>
+						</div>
+						<div class="product-box">
+							<img src="css/images/ABriefHistoryofSevenKillings.jpg" />
+							<div class="product-detail">
+								<h4>A Brief History of Seven Killings</h4>
+								<p>By (author) Marlon James</p>
+							</div>
+							<a href="#" class="buy-btn">BUY NOW <span class="price"><span class="low">$</span>39<span class="high">99</span></span></a>
+						</div>
+						<div class="product-box">
+							<img src="css/images/WarriorsoftheStorm.jpg" />
+							<div class="product-detail">
+								<h4>Warriors of the Storm</h4>
+								<p>By (author) Bernard Cornwell</p>
+							</div>
+							<a href="#" class="buy-btn">BUY NOW <span class="price"><span class="low">$</span>10<span class="high">15</span></span></a>
+						</div>
+						<div class="product-box">
+							<img src="css/images/Dictator.jpg" />
+							<div class="product-detail">
+								<h4>Dictator</h4>
+								<p>By (author) Robert Harris</p>
+							</div>
+							<a href="#" class="buy-btn">BUY NOW <span class="price"><span class="low">$</span>23<span class="high">00</span></span></a>
+						</div>
+						<div class="product-box">
+							<img src="css/images/TheFishermen.jpg" />
+							<div class="product-detail">
+								<h4>The Fishermen</h4>
+								<p>By (author) Chigozie Obioma	</p>
+							</div>
+							<a href="#" class="buy-btn">BUY NOW <span class="price"><span class="low">$</span>15<span class="high">00</span></span></a>
+						</div>
+						<div class="product-box">
+							<img src="css/images/TheHotelYears.jpg" />
+							<div class="product-detail">
+								<h4>The Hotel Years </h4>
+								<p>By (author) Joseph Roth </p>
+							</div>
+							<a href="#" class="buy-btn">BUY NOW <span class="price"><span class="low">$</span>34<span class="high">10</span></span></a>
+						</div>
+						<div class="product-box">
+							<img src="css/images/TheRoadtoLittle Dribbling.jpg" />
+							<div class="product-detail">
+								<h4>The Road to Little Dribbling</h4>
+								<p>By (author) Bill Bryson</p>
+							</div>
+							<a href="#" class="buy-btn">BUY NOW <span class="price"><span class="low">$</span>5<span class="high">50</span></span></a>
+						</div>
+						<div class="product-box">
+							<img src="css/images/FacelessKillers.jpg" />
+							<div class="product-detail">
+								<h4>Faceless Killers</h4>
+								<p>By (author) Henning Mankell</p>
+							</div>
+							<a href="#" class="buy-btn">BUY NOW <span class="price"><span class="low">$</span>65<span class="high">70</span></span></a>
+						</div>
+						<div class="product-box">
+							<img src="css/images/LittleStars.jpg" />
+							<div class="product-detail">
+								<h4>Little Stars</h4>
+								<p>By (author) Jacqueline Wilson</p>
+							</div>
+							<a href="#" class="buy-btn">BUY NOW <span class="price"><span class="low">$</span>12<span class="high">00</span></span></a>
+						</div>
+					</div></div>
+			<div class="cl">&nbsp;</div>
+			<!-- End Products -->
+		</div>
+		<div class="cl">&nbsp;</div>
+	</div>
+	<!-- End Main -->
+	<!-- Footer -->
+	<div id="footer" class="shell">
+		<div class="top">
+			<div class="cnt">
+				<div class="col store">
+					<h4>Store</h4>
+					<ul>
+						<li><a href="#"></a>Home</li>
+						<li><a href="#">Special Offers</a></li>
+						<li><a href="#">Log In</a></li>
+						<li><a href="#">Account</a></li>
+						<li><a href="#">Basket</a></li>
+						<li><a href="#">Checkout</a></li>
+					</ul>
+				</div>
+				<div class="col about">
+					<h4>About BookStore</h4>
+					<p>
+						
+					</p>
+				</div>
+				<div class="col location">
+					<h4>Locator</h4>
+					<div id="map">
+						
+					</div>
+				</div>
+				<div class="cl">&nbsp;</div>
+				<div class="copy">
+					<p>&copy; <a href="#">BookStore Paris Nord</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Footer -->
+</body>
+</html>
