@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>BookStore Paris Nord</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="js/google-map.js"></script>
+</head>
+<body>
+	<!-- Header -->
+	<div id="header" class="shell">
+		<div id="search">
+			<input id="book-search" type="text" placeholder="  Search for books" class="search-input" />
+			<button class="search-btn" type="submit"></button>
+		</div>
+		<div id="logo">
+			<h1>
+				<a href="#">BookStore</a>
+			</h1>
+			<span>
+				<a href="#">Paris Nord</a>
+			</span>
+		</div>
+		<div id="navigation">
+			<ul>
+				<li>
+					<a href="#" class="active">Home</a>
+				</li>
+				<li>
+					<a href="#">Products</a>
+				</li>
+				<li>
+					<a href="#">Promotions</a>
+				</li>
+				<li>
+					<a href="#">Contacts</a>
+				</li>
+			</ul>
+		</div>
+		<div class="cl">&nbsp;</div>
+		<div id="login-details">
+			<p>
+				Welcome, 
+				<a href="#" id="user">Guest</a>
+				. 
+			</p>
+			<p>
+				<a href="#" class="cart">
+					<img src="css/images/cart-icon.png">
+				</a>
+				Shopping Cart (0)
+				<a href="#" class="sum">$0.00</a>
+			</p>
+		</div>
+	</div>
+	<!-- End Header -->
+	<!-- Main -->
+	<div id="main" class="shell">
+		<div id="form">
+			<div id="login-form">
+			<div id="triangle"></div>
+			<h3>Login</h3>
+			<form action="login_submit" method="get" accept-charset="utf-8">
+				<input type="email" name="username" placeholder="Email">
+				<input type="password" name="username" placeholder="Password">
+				<input type="submit" value="Login">
+			</form>
+			</div>
+			<div id="register-form">
+			<div id="triangle"></div>
+			<h3>Register</h3>
+			<form action="register_submit" method="get" accept-charset="utf-8">
+				<input type="email" name="username" placeholder="Email">
+				<input type="name" name="username" placeholder="Name">
+				<input type="password" name="username" placeholder="Password">
+					<p>Please enter a password with at least six characters.</p>
+				<input type="password" name="username" placeholder="Verify Password">
+				<input type="submit" value="Register">
+			</form>
+			</div>
+		</div>
+	</div>
+	<!-- End Main -->
+	<!-- Footer -->
+	<div id="footer" class="shell">
+		<div class="top">
+			<div class="cnt">
+				<div class="col store">
+					<h4>Store</h4>
+					<ul>
+						<li><a href="#"></a>Home</li>
+						<li><a href="#">Special Offers</a></li>
+						<li><a href="#">Log In</a></li>
+						<li><a href="#">Account</a></li>
+						<li><a href="#">Basket</a></li>
+						<li><a href="#">Checkout</a></li>
+					</ul>
+				</div>
+				<div class="col about">
+					<h4>About BookStore</h4>
+					<p>
+						
+					</p>
+				</div>
+				<div class="col location">
+					<h4>Locator</h4>
+					<div id="map">
+						
+					</div>
+				</div>
+				<div class="cl">&nbsp;</div>
+				<div class="copy">
+					<p>&copy; <a href="#">BookStore Paris Nord</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Footer -->
+</body>
+</html>

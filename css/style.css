@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 * {
 	margin: 0;
 	padding: 0;
@@ -573,6 +574,78 @@ h4 {
 #btn-wrap .btn-basket:hover {
 	background-color: #0182b5;
 	border-color: #e0e0e0;
+}
+
+#form {
+	width: 100%;
+	height: 500px;
+}
+
+#login-form {
+	width: 49%;
+	float: left;
+	border-left: 1px solid #fff;
+}
+
+#register-form {
+	float: right;
+	width: 49%;
+}
+
+#triangle{
+   width:0;
+  	border-top:12x solid transparent;
+  	border-right:12px solid transparent;
+  	border-bottom:12px solid #3399cc;
+  	border-left:12px solid transparent;
+  	margin:0 auto;
+}
+
+#login-form h3, #register-form h3{
+  	text-align: center;
+  	background:#3399cc;
+  	padding:20px 0;
+  	font-size:140%;
+  	font-weight:bold;
+  	text-align:center;
+  	color:#fff;
+}
+
+#register-form p {
+	padding-bottom: 10px;
+}
+
+form{
+  	background:#f0f0f0;
+  	padding:6% 4%;
+}
+
+input[type="email"],input[type="password"],input[type="name"]{
+  	width:92%;
+ 	background:#fff;
+ 	margin-bottom:4%;
+ 	border:1px solid #ccc;
+  	padding:4%;
+  	font-family:'Open Sans',sans-serif;
+  	font-size:95%;
+  	color:#555;
+}
+
+input[type="submit"]{
+  	width:100%;
+  	background:#3399cc;
+  	border:0;
+  	padding:4%;
+  	font-family:'Open Sans',sans-serif;
+  	font-size:100%;
+  	color:#fff;
+  	cursor:pointer;
+  	transition:background .3s;
+  	-webkit-transition:background .3s;
+}
+
+input[type="submit"]:hover{
+  	background:#2288bb;
 }
 
 #footer {
